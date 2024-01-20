@@ -18,30 +18,17 @@
         android:background="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.54" />
-
-    <View
-        android:id="@+id/divider6"
-        android:layout_width="550dp"
-        android:layout_height="5dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="25dp"
-        android:background="@android:color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TeleopMiddleCubeIncrease" />
+        app:layout_constraintVertical_bias="0.545" />
 
 
     <TextView
         android:id="@+id/TeleopUpperLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Upper"
+        android:text="AMP"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/white"
         android:textSize="40dp"
@@ -96,7 +83,7 @@
         app:layout_constraintVertical_bias="0.213" />
 
     <Button
-        android:id="@+id/TeleopUpperCubeDecrease"
+        android:id="@+id/TeleopMissedAMPDecrease"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:background="@drawable/round_button_purple"
@@ -112,7 +99,7 @@
         app:layout_constraintVertical_bias="0.462" />
 
     <Button
-        android:id="@+id/TeleopUpperCubeIncrease"
+        android:id="@+id/TeleopMissedAMPIncrease"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:background="@drawable/round_button_purple"
@@ -128,7 +115,7 @@
         app:layout_constraintVertical_bias="0.462" />
 
     <Button
-        android:id="@+id/TeleopUpperConeDecrease"
+        android:id="@+id/TeleopScoredAMPDecrease"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:background="@drawable/round_button_yellow"
@@ -144,7 +131,7 @@
         app:layout_constraintVertical_bias="0.459" />
 
     <Button
-        android:id="@+id/TeleopUpperConeIncrease"
+        android:id="@+id/TeleopScoredAMPIncrease"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:background="@drawable/round_button_yellow"
@@ -160,7 +147,7 @@
         app:layout_constraintVertical_bias="0.462" />
 
     <Button
-        android:id="@+id/TeleopMiddleCubeDecrease"
+        android:id="@+id/TeleopMissedSpeakerDecrease"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:background="@drawable/round_button_purple"
@@ -179,7 +166,7 @@
         android:id="@+id/TeleopMiddleCubeLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cube"
+        android:text="Missed"
         android:textColor="@color/white"
         android:textSize="30dp"
         android:fontFamily="@font/helvetica"
@@ -191,7 +178,7 @@
         app:layout_constraintVertical_bias="0.57" />
 
     <TextView
-        android:id="@+id/TeleopMiddleConeCounter"
+        android:id="@+id/TeleopScoredSpeakerCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
@@ -206,7 +193,7 @@
         app:layout_constraintVertical_bias="0.673" />
 
     <Button
-        android:id="@+id/TeleopMiddleCubeIncrease"
+        android:id="@+id/TeleopMissedSpeakerIncrease"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:background="@drawable/round_button_purple"
@@ -222,7 +209,7 @@
         app:layout_constraintVertical_bias="0.681" />
 
     <Button
-        android:id="@+id/TeleopMiddleConeDecrease"
+        android:id="@+id/TeleopScoredSpeakerDecrease"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:background="@drawable/round_button_yellow"
@@ -241,7 +228,7 @@
         android:id="@+id/TeleopMiddleConeLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cone"
+        android:text="Scored"
         android:textColor="@color/white"
         android:textSize="30dp"
         android:fontFamily="@font/helvetica"
@@ -253,7 +240,7 @@
         app:layout_constraintVertical_bias="0.577" />
 
     <Button
-        android:id="@+id/TeleopMiddleConeIncrease"
+        android:id="@+id/TeleopScoredSpeakerIncrease"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:background="@drawable/round_button_yellow"
@@ -272,7 +259,7 @@
         android:id="@+id/TeleopMiddleLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Middle"
+        android:text="Speaker"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/white"
         android:textSize="40dp"
@@ -285,7 +272,7 @@
         app:layout_constraintVertical_bias="0.572" />
 
     <TextView
-        android:id="@+id/TeleopMiddleCubeCounter"
+        android:id="@+id/TeleopMissedSpeakerCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
@@ -299,149 +286,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.664" />
 
-    <Button
-        android:id="@+id/TeleopHybridCubeDecrease"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:background="@drawable/round_button_purple"
-        android:text="-"
-        android:textColor="@color/white"
-        android:textSize="50sp"
-        android:fontFamily="@font/helvetica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.656"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.919" />
-
-    <Button
-        android:id="@+id/TeleopHybridConeDecrease"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:background="@drawable/round_button_yellow"
-        android:text="-"
-        android:textColor="@color/black"
-        android:textSize="50sp"
-        android:fontFamily="@font/helvetica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.002"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.919" />
-
-    <Button
-        android:id="@+id/TeleopHybridCubeIncrease"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:background="@drawable/round_button_purple"
-        android:text="+"
-        android:textColor="@color/white"
-        android:textSize="50sp"
-        android:fontFamily="@font/helvetica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.987"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.919" />
-
     <TextView
-        android:id="@+id/TeleopHybridCubeCounter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:fontFamily="@font/helvetica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.765"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.886" />
-
-    <TextView
-        android:id="@+id/TeleopHybridLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/helvetica"
-        android:text="Hybrid"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@color/white"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.789" />
-
-    <TextView
-        android:id="@+id/TeleopHybridCubeLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cube"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        android:fontFamily="@font/helvetica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786" />
-
-    <TextView
-        android:id="@+id/TeleopHybridConeCounter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:fontFamily="@font/helvetica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.894" />
-
-    <TextView
-        android:id="@+id/TeleopHybridConeLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cone"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        android:fontFamily="@font/helvetica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786" />
-
-    <Button
-        android:id="@+id/TeleopHybridConeIncrease"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:background="@drawable/round_button_yellow"
-        android:text="+"
-        android:textColor="@color/black"
-        android:textSize="50sp"
-        android:fontFamily="@font/helvetica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.328"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.919" />
-
-    <TextView
-        android:id="@+id/TeleopUpperConeCounter"
+        android:id="@+id/TeleopScoredAMPCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
@@ -456,7 +302,7 @@
         app:layout_constraintVertical_bias="0.463" />
 
     <TextView
-        android:id="@+id/TeleopUpperCubeCounter"
+        android:id="@+id/TeleopMissedAMPCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
@@ -471,10 +317,10 @@
         app:layout_constraintVertical_bias="0.462" />
 
     <TextView
-        android:id="@+id/TeleopUpperConeLabel"
+        android:id="@+id/AutoAMPLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cone"
+        android:text="Scored"
         android:textColor="@color/white"
         android:textSize="30dp"
         android:fontFamily="@font/helvetica"
@@ -486,10 +332,10 @@
         app:layout_constraintVertical_bias="0.379" />
 
     <TextView
-        android:id="@+id/TeleopUpperCubeLabel"
+        android:id="@+id/AutoSpeakerLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cube"
+        android:text="Missed"
         android:textColor="@color/white"
         android:textSize="30dp"
         android:fontFamily="@font/helvetica"

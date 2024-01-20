@@ -3,7 +3,7 @@ package com.example.frcscoutingapp2022;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-
+import java.util.HashMap;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,7 +21,6 @@ public class endgame extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-
     public static EditText additionalNotesText;
 
     // TODO: Rename and change types of parameters

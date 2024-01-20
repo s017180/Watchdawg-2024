@@ -15,6 +15,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import java.util.HashMap;
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -38,32 +40,27 @@ public class MainActivity extends AppCompatActivity {
     public static String defendedOnByNumber = "";
 
 
-    public static int mobility = 0;
+    public static int leave = 0;
     public static int alliance = 0;
     public static int playedDefense = 0;
     public static int defendedOn = 0;
 
-    public static int AutoDocked = 0;
-    public static int AutoEngaged = 0;
     public static int Parking = 0;
     public static int TeleopDocked = 0;
     public static int TeleopEngaged = 0;
     public static int penalty = 0;
     public static int deadBot = 0;
 
+    public static HashMap<String, Integer> autoScores = new HashMap<>();
+
     public static int AutoUpperCone = 0;
     public static int AutoUpperCube = 0;
     public static int AutoMiddleCone = 0;
-    public static int AutoMiddleCube = 0;
-    public static int AutoHybridCone = 0;
-    public static int AutoHybridCube = 0;
 
     public static int TeleopUpperCone = 0;
     public static int TeleopUpperCube = 0;
     public static int TeleopMiddleCone = 0;
     public static int TeleopMiddleCube = 0;
-    public static int TeleopHybridCone = 0;
-    public static int TeleopHybridCube = 0;
 
 
     @Override
@@ -89,13 +86,11 @@ public class MainActivity extends AppCompatActivity {
         matchNumText = (EditText) findViewById(R.id.matchNum);
         scoutNameText = (EditText) findViewById(R.id.name);
 
-        mobility = 0;
+        leave = 0;
         playedDefense = 0;
         defendedOn = 0;
 
 
-        AutoDocked = 0;
-        AutoEngaged = 0;
         Parking = 0;
         TeleopDocked = 0;
         TeleopEngaged = 0;
@@ -106,9 +101,6 @@ public class MainActivity extends AppCompatActivity {
         AutoUpperCone = 0;
         AutoUpperCube = 0;
         AutoMiddleCone = 0;
-        AutoMiddleCube = 0;
-        AutoHybridCone = 0;
-        AutoHybridCube = 0;
 
         TeleopUpperCone = 0;
         TeleopUpperCube = 0;
@@ -140,9 +132,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
 
-            case R.id.MobilityCheckBox:
+            case R.id.LeaveCheckBox:
                 //MainActivity.checkBoxData[16] = checked ? 1 : 0;
-                MainActivity.mobility = checked ? 1 : 0;
+                MainActivity.leave = checked ? 1 : 0;
 
                 break;
             case R.id.penalized:
@@ -177,25 +169,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
 
-            case R.id.AutoDocked:
-                if(MainActivity.AutoDocked==1) {
-                    AutoRadioGroup.clearCheck();
-                    MainActivity.AutoDocked=0;
-                }
-                else {MainActivity.AutoDocked = 1;
-                MainActivity.AutoEngaged = 0;
-                System.out.println(MainActivity.AutoDocked);
-                System.out.println(MainActivity.AutoEngaged);}
-                break;
-            case R.id.AutoEngaged:
-                if(MainActivity.AutoEngaged==1){
-                    AutoRadioGroup.clearCheck();
-                    MainActivity.AutoEngaged=0;}
-                else {MainActivity.AutoEngaged = 1;
-                MainActivity.AutoDocked = 0;
-                System.out.println(MainActivity.AutoEngaged);
-                System.out.println(MainActivity.AutoDocked);}
-                break;
+
             case R.id.TeleopEngaged:
 
                 if(MainActivity.TeleopEngaged==1){

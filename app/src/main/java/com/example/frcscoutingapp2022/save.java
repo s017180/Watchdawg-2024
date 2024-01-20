@@ -7,8 +7,6 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
-import android.os.ParcelFileDescriptor;
-import android.provider.MediaStore;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,8 +19,6 @@ import com.google.zxing.common.BitMatrix;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
 
 import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class save extends Fragment implements View.OnClickListener{
@@ -84,11 +80,11 @@ public class save extends Fragment implements View.OnClickListener{
                 catch (Exception e){
                     System.out.println(e.getMessage());
                 }
-
+//Code for QR match scouting
 
                 data = MainActivity.teamNumber + "," + MainActivity.matchNumber + ","
-                        /* Auto */   + MainActivity.mobility + "," + MainActivity.AutoUpperCone + "," + MainActivity.AutoMiddleCone + "," + MainActivity.AutoHybridCone + "," + MainActivity.AutoUpperCube + "," + MainActivity.AutoMiddleCube + "," + MainActivity.AutoHybridCube + "," + MainActivity.AutoEngaged + ","+ MainActivity.AutoDocked + ","
-                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ MainActivity.TeleopUpperCone + "," + MainActivity.TeleopMiddleCone + "," + MainActivity.TeleopHybridCone + "," + MainActivity.TeleopUpperCube + "," + MainActivity.TeleopMiddleCube + "," + MainActivity.TeleopHybridCube + ","
+                        /* Auto */   + MainActivity.leave + "," + MainActivity.AutoUpperCone + "," + MainActivity.AutoMiddleCone + "," + MainActivity.AutoUpperCube + ","
+                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ MainActivity.TeleopUpperCone + "," + MainActivity.TeleopMiddleCone + "," + MainActivity.TeleopUpperCube + "," + MainActivity.TeleopMiddleCube + ","
                         /* Endgame */+ MainActivity.TeleopEngaged + "," + MainActivity.TeleopDocked +","+ MainActivity.Parking + ","
                         /* AddInfo*/ + MainActivity.penalty + "," + MainActivity.deadBot + "," + MainActivity.alliance + "," + MainActivity.additionalNotes  + "," + MainActivity.scoutName;
 
@@ -124,8 +120,6 @@ public class save extends Fragment implements View.OnClickListener{
                 break;
             case R.id.newMatch2:
                 Intent intent = new Intent(getActivity(), HomeScreen.class);
-                MainActivity.TeleopHybridCone = 0;
-                MainActivity.TeleopHybridCube = 0;
                 startActivity(intent);
                 break;
 
@@ -154,10 +148,10 @@ public class save extends Fragment implements View.OnClickListener{
                 System.out.println(MainActivity.teamNumber);
                 System.out.println(MainActivity.matchNumber);
                 System.out.println(MainActivity.defendedOnByNumber);
-
+                //code for saving results
                 data += MainActivity.teamNumber + "," + MainActivity.matchNumber + ","
-                        /* Auto */   + MainActivity.mobility + "," + MainActivity.AutoUpperCone + "," + MainActivity.AutoMiddleCone + "," + MainActivity.AutoHybridCone + "," + MainActivity.AutoUpperCube + "," + MainActivity.AutoMiddleCube + "," + MainActivity.AutoHybridCube + "," + MainActivity.AutoEngaged + ","+ MainActivity.AutoDocked + ","
-                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ MainActivity.TeleopUpperCone + "," + MainActivity.TeleopMiddleCone + "," + MainActivity.TeleopHybridCone + "," + MainActivity.TeleopUpperCube + "," + MainActivity.TeleopMiddleCube + "," + MainActivity.TeleopHybridCube + ","
+                        /* Auto */   + MainActivity.leave + "," + MainActivity.AutoUpperCone + "," + MainActivity.AutoMiddleCone + "," + MainActivity.AutoUpperCube + ","
+                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ MainActivity.TeleopUpperCone + "," + MainActivity.TeleopMiddleCone + "," + MainActivity.TeleopUpperCube + "," + MainActivity.TeleopMiddleCube + ","
                         /* Endgame */    + MainActivity.TeleopEngaged + "," + MainActivity.TeleopDocked +","+ MainActivity.Parking + ","
                         /* AddInfo*/ + "," + MainActivity.penalty + "," + MainActivity.deadBot + "," + MainActivity.alliance + "," + MainActivity.additionalNotes  + "," + MainActivity.scoutName;
 
