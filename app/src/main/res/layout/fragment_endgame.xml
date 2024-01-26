@@ -73,13 +73,13 @@
             app:layout_constraintVertical_bias="0.315" />
 
         <RadioButton
-            android:id="@+id/TeleopDocked"
+            android:id="@+id/Climb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onRadioButtonClicked"
-            android:text="Docked"
-            android:textSize="40dp"
             android:fontFamily="@font/helvetica"
+            android:onClick="onRadioButtonClicked"
+            android:text="Climb"
+            android:textSize="40dp"
             android:translationY="-70dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

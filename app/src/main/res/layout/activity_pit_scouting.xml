@@ -185,11 +185,11 @@
             app:layout_constraintTop_toBottomOf="@+id/Weight" />
 
         <EditText
-            android:id="@+id/locationOfScoring"
+            android:id="@+id/scoreFromPodium"
             android:layout_width="259dp"
             android:layout_height="52dp"
             android:layout_marginTop="712dp"
-            android:hint="location of scoring"
+            android:hint="Score From Podium"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
@@ -198,11 +198,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/notesOnCubeOrCone"
+            android:id="@+id/notesOnAMPorScoring"
             android:layout_width="261dp"
             android:layout_height="54dp"
             android:layout_marginTop="780dp"
-            android:hint="Notes on cube or cone scoring"
+            android:hint="Notes on AMP or Speaker scoring"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
@@ -226,11 +226,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/abilityToDockAndEngage"
+            android:id="@+id/abilityToClimb"
             android:layout_width="259dp"
             android:layout_height="46dp"
             android:layout_marginTop="900dp"
-            android:hint="Ability to dock and engage"
+            android:hint="Ability to CLimb"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
@@ -240,11 +240,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/dockingAndEngagingFeatures"
+            android:id="@+id/climbingFeatures"
             android:layout_width="259dp"
             android:layout_height="46dp"
             android:layout_marginTop="944dp"
-            android:hint="Docking and engaging features"
+            android:hint="Climbing features"
             android:inputType="text"
             android:textColor="@color/black"
             android:textColorHint="@color/black"

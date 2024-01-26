@@ -16,18 +16,18 @@ public class Auto extends Fragment implements View.OnClickListener {
     //initialize variables
 
     //Initialize upper node text views
-    private TextView AutoUpperConeText;
-    private TextView AutoUpperCubeText;
+    private TextView AutoAMPText;
+    private TextView AutoSpeakerText;
 
     //initialize Middle node text views
-    private TextView AutoMiddleConeText;
+    private TextView AutoNoteText;
 
 
     //counter variables
-    private int AutoUpperConeCounter = 0;
-    private int AutoUpperCubeCounter = 0;
+    private int AutoAMPCounter = 0;
+    private int AutoSpeakerCounter = 0;
 
-    private int AutoMiddleConeCounter = 0;
+    private int AutoNoteCounter = 0;
 
 
     @Override
@@ -39,10 +39,10 @@ public class Auto extends Fragment implements View.OnClickListener {
 
 
         //Define TextViews
-        AutoUpperConeText = (TextView) view.findViewById(R.id.AutoAMPCounter);
-        AutoUpperCubeText = (TextView) view.findViewById(R.id.AutoSpeakerCounter);
+        AutoAMPText = (TextView) view.findViewById(R.id.AutoAMPCounter);
+        AutoSpeakerText = (TextView) view.findViewById(R.id.AutoSpeakerCounter);
 
-        AutoMiddleConeText = (TextView) view.findViewById(R.id.NotesAcquiredCounter);
+        AutoNoteText = (TextView) view.findViewById(R.id.NotesAcquiredCounter);
 
 
 
@@ -66,49 +66,49 @@ public class Auto extends Fragment implements View.OnClickListener {
         switch(view.getId()){
             //+1 to upper cone
             case R.id.AutoAMPIncrease:
-                AutoUpperConeCounter++;
-                AutoUpperConeText.setText(Integer.toString(AutoUpperConeCounter));
+                AutoAMPCounter++;
+                AutoAMPText.setText(Integer.toString(AutoAMPCounter));
                 //MainActivity.editMatchData(0, 0, MainActivity.getButtonData()[0][0] + 1);
-                MainActivity.AutoUpperCone++;
+                MainActivity.AutoAMP++;
                 break;
             case R.id.AutoAMPDecrease:
-                if(AutoUpperConeCounter > 0) {
-                    AutoUpperConeCounter--;
-                    AutoUpperConeText.setText(Integer.toString(AutoUpperConeCounter));
+                if(AutoAMPCounter > 0) {
+                    AutoAMPCounter--;
+                    AutoAMPText.setText(Integer.toString(AutoAMPCounter));
                     //MainActivity.editMatchData(0, 0, MainActivity.getButtonData()[0][0] - 1);
-                    MainActivity.AutoUpperCone--;
+                    MainActivity.AutoAMP--;
                 } break;
 
-            case R.id.AutoUpperCubeIncrease:
-                AutoUpperCubeCounter++;
-                AutoUpperCubeText.setText(Integer.toString(AutoUpperCubeCounter));
+            case R.id.AutoSpeakerIncrease:
+                AutoSpeakerCounter++;
+                AutoSpeakerText.setText(Integer.toString(AutoSpeakerCounter));
                 //MainActivity.editMatchData(0, 1, MainActivity.getButtonData()[0][1] + 1);\
-                MainActivity.AutoUpperCube++;
+                MainActivity.AutoSpeaker++;
 
                 break;
 
-            case R.id.AutoUpperCubeDecrease:
-                if(AutoUpperCubeCounter > 0) {
-                    AutoUpperCubeCounter--;
-                    AutoUpperCubeText.setText(Integer.toString(AutoUpperCubeCounter));
+            case R.id.AutoSpeakerDecrease:
+                if(AutoSpeakerCounter > 0) {
+                    AutoSpeakerCounter--;
+                    AutoSpeakerText.setText(Integer.toString(AutoSpeakerCounter));
                     //MainActivity.editMatchData(0, 1, MainActivity.getButtonData()[0][1] - 1);
-                    MainActivity.AutoUpperCube--;
+                    MainActivity.AutoSpeaker--;
                 } break;
 
-            case R.id.AutoMiddleConeIncrease:
-                AutoMiddleConeCounter++;
-                AutoMiddleConeText.setText(Integer.toString(AutoMiddleConeCounter));
+            case R.id.NotesAcquiredIncrease:
+                AutoNoteCounter++;
+                AutoNoteText.setText(Integer.toString(AutoNoteCounter));
                 //MainActivity.editMatchData(0, 2, MainActivity.getButtonData()[0][2] + 1);
-                MainActivity.AutoMiddleCone++;
+                MainActivity.AutoNote++;
 
                 break;
 
-            case R.id.AutoMiddleConeDecrease:
-                if(AutoMiddleConeCounter > 0) {
-                    AutoMiddleConeCounter--;
-                    AutoMiddleConeText.setText(Integer.toString(AutoMiddleConeCounter));
+            case R.id.NotesAcquiredDecrease:
+                if(AutoNoteCounter > 0) {
+                    AutoNoteCounter--;
+                    AutoNoteText.setText(Integer.toString(AutoNoteCounter));
                     //MainActivity.editMatchData(0, 2, MainActivity.getButtonData()[0][2] - 1);
-                    MainActivity.AutoMiddleCone--;
+                    MainActivity.AutoNote--;
                 } break;
 
 
@@ -119,10 +119,10 @@ public class Auto extends Fragment implements View.OnClickListener {
     public void onResume() {
         super.onResume();
 
-        AutoUpperConeText.setText(Integer.toString(AutoUpperConeCounter));
-        AutoUpperCubeText.setText(Integer.toString(AutoUpperCubeCounter));
+        AutoAMPText.setText(Integer.toString(AutoAMPCounter));
+        AutoSpeakerText.setText(Integer.toString(AutoSpeakerCounter));
 
-        AutoMiddleConeText.setText(Integer.toString(AutoMiddleConeCounter));
+        AutoNoteText.setText(Integer.toString(AutoNoteCounter));
 
 
     }

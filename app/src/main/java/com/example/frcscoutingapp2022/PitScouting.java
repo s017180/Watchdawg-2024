@@ -37,10 +37,10 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
     private static EditText DriveType;
     private static EditText robotLength;
     private static EditText RobotWidth;
-    private static EditText locationOfScoring;
-    private static EditText notesOnCupOrCone;
-    private static EditText abilityToDockAndEngage;
-    private static EditText dockingAndEngagingFeatures;
+    private static EditText ScoreFromPodium;
+    private static EditText notesOnAMPOrSpeaker;
+    private static EditText abilityToClimb;
+    private static EditText climbingFeatures;
     private static EditText intakeMethod;
     private static EditText autoRoutine;
     private static EditText notesOnRobot;
@@ -63,10 +63,10 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
         DriveMotors = (EditText) findViewById(R.id.DriveMotors);
         robotLength = (EditText) findViewById(R.id.robotLength);
         RobotWidth = (EditText) findViewById(R.id.RobotWidth);
-        locationOfScoring = (EditText) findViewById(R.id.locationOfScoring);
-        notesOnCupOrCone = (EditText) findViewById(R.id.notesOnCubeOrCone);
-        abilityToDockAndEngage = (EditText) findViewById(R.id.abilityToDockAndEngage);
-        dockingAndEngagingFeatures = (EditText) findViewById(R.id.dockingAndEngagingFeatures);
+        ScoreFromPodium = (EditText) findViewById(R.id.scoreFromPodium);
+        notesOnAMPOrSpeaker = (EditText) findViewById(R.id.notesOnAMPorScoring);
+        abilityToClimb = (EditText) findViewById(R.id.abilityToClimb);
+        climbingFeatures = (EditText) findViewById(R.id.climbingFeatures);
         intakeMethod = (EditText) findViewById(R.id.intakeMethod);
         autoRoutine = (EditText) findViewById(R.id.autoRoutine);
         notesOnRobot = (EditText) findViewById(R.id.notesOnRobot);
@@ -88,7 +88,7 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
 
 
                 data = TeamNumPit.getText().toString() + ","+Weight.getText().toString()+","+DriveMotors.getText().toString()+","+numberOfMotors.getText().toString()+","+WheelType.getText().toString()+","+DriveType.getText().toString()+","+robotLength.getText().toString()+","+
-                        RobotWidth.getText().toString()+","+locationOfScoring.getText().toString()+","+notesOnCupOrCone.getText().toString()+","+abilityToDockAndEngage.getText().toString()+","+dockingAndEngagingFeatures.getText().toString()+","+
+                        RobotWidth.getText().toString()+","+ ScoreFromPodium.getText().toString()+","+ notesOnAMPOrSpeaker.getText().toString()+","+ abilityToClimb.getText().toString()+","+ climbingFeatures.getText().toString()+","+
                         intakeMethod.getText().toString()+","+autoRoutine.getText().toString()+","+notesOnRobot.getText().toString()+","+robotName.getText().toString();
 
                 //Initialize multi format writer

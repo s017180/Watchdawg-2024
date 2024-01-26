@@ -46,21 +46,21 @@ public class MainActivity extends AppCompatActivity {
     public static int defendedOn = 0;
 
     public static int Parking = 0;
-    public static int TeleopDocked = 0;
+    public static int Climb = 0;
     public static int TeleopEngaged = 0;
     public static int penalty = 0;
     public static int deadBot = 0;
 
     public static HashMap<String, Integer> autoScores = new HashMap<>();
 
-    public static int AutoUpperCone = 0;
-    public static int AutoUpperCube = 0;
-    public static int AutoMiddleCone = 0;
+    public static int AutoAMP = 0;
+    public static int AutoSpeaker = 0;
+    public static int AutoNote = 0;
 
-    public static int TeleopUpperCone = 0;
-    public static int TeleopUpperCube = 0;
-    public static int TeleopMiddleCone = 0;
-    public static int TeleopMiddleCube = 0;
+    public static int TeleopAmpScored = 0;
+    public static int TeleopAmpMissed = 0;
+    public static int TeleopSpeakerScored = 0;
+    public static int TeleopSpeakerMissed = 0;
 
 
     @Override
@@ -92,20 +92,20 @@ public class MainActivity extends AppCompatActivity {
 
 
         Parking = 0;
-        TeleopDocked = 0;
+        Climb = 0;
         TeleopEngaged = 0;
         penalty = 0;
         deadBot = 0;
 
 
-        AutoUpperCone = 0;
-        AutoUpperCube = 0;
-        AutoMiddleCone = 0;
+        AutoAMP = 0;
+        AutoSpeaker = 0;
+        AutoNote = 0;
 
-        TeleopUpperCone = 0;
-        TeleopUpperCube = 0;
-        TeleopMiddleCone = 0;
-        TeleopMiddleCube = 0;
+        TeleopAmpScored = 0;
+        TeleopAmpMissed = 0;
+        TeleopSpeakerScored = 0;
+        TeleopSpeakerMissed = 0;
 
 
     }
@@ -177,22 +177,22 @@ public class MainActivity extends AppCompatActivity {
                     MainActivity.TeleopEngaged=0;
                 }
                 else{MainActivity.TeleopEngaged =1;
-                MainActivity.TeleopDocked =0;
+                MainActivity.Climb =0;
                 MainActivity.Parking =0;
                 System.out.println(MainActivity.TeleopEngaged);
-                System.out.println(MainActivity.TeleopDocked);
+                System.out.println(MainActivity.Climb);
                 System.out.println(MainActivity.Parking);}
                 break;
-            case R.id.TeleopDocked:
-                if(MainActivity.TeleopDocked==1){
+            case R.id.Climb:
+                if(MainActivity.Climb ==1){
                     EndgameRadioGroup.clearCheck();
-                    MainActivity.TeleopDocked=0;
+                    MainActivity.Climb =0;
                 }
                 else{MainActivity.TeleopEngaged =0;
-                MainActivity.TeleopDocked =1;
+                MainActivity.Climb =1;
                 MainActivity.Parking =0;
                 System.out.println(MainActivity.TeleopEngaged);
-                System.out.println(MainActivity.TeleopDocked);
+                System.out.println(MainActivity.Climb);
                 System.out.println(MainActivity.Parking);}
                 break;
             case R.id.Parking:
@@ -201,10 +201,10 @@ public class MainActivity extends AppCompatActivity {
                     MainActivity.Parking=0;
                 }
                 else{MainActivity.TeleopEngaged =0;
-                MainActivity.TeleopDocked =0;
+                MainActivity.Climb =0;
                 MainActivity.Parking =1;
                 System.out.println(MainActivity.TeleopEngaged);
-                System.out.println(MainActivity.TeleopDocked);
+                System.out.println(MainActivity.Climb);
                 System.out.println(MainActivity.Parking);}
                 break;
         }

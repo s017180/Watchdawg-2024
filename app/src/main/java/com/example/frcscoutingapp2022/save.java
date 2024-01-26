@@ -83,9 +83,9 @@ public class save extends Fragment implements View.OnClickListener{
 //Code for QR match scouting
 
                 data = MainActivity.teamNumber + "," + MainActivity.matchNumber + ","
-                        /* Auto */   + MainActivity.leave + "," + MainActivity.AutoUpperCone + "," + MainActivity.AutoMiddleCone + "," + MainActivity.AutoUpperCube + ","
-                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ MainActivity.TeleopUpperCone + "," + MainActivity.TeleopMiddleCone + "," + MainActivity.TeleopUpperCube + "," + MainActivity.TeleopMiddleCube + ","
-                        /* Endgame */+ MainActivity.TeleopEngaged + "," + MainActivity.TeleopDocked +","+ MainActivity.Parking + ","
+                        /* Auto */   + MainActivity.leave + "," + MainActivity.AutoNote + "," + MainActivity.AutoNote + "," + MainActivity.AutoNote + ","
+                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ MainActivity.TeleopAmpScored + "," + MainActivity.TeleopSpeakerScored + "," + MainActivity.TeleopAmpMissed + "," + MainActivity.TeleopSpeakerMissed + ","
+                        /* Endgame */+ MainActivity.TeleopEngaged + "," + MainActivity.Climb +","+ MainActivity.Parking + ","
                         /* AddInfo*/ + MainActivity.penalty + "," + MainActivity.deadBot + "," + MainActivity.alliance + "," + MainActivity.additionalNotes  + "," + MainActivity.scoutName;
 
 
@@ -150,9 +150,9 @@ public class save extends Fragment implements View.OnClickListener{
                 System.out.println(MainActivity.defendedOnByNumber);
                 //code for saving results
                 data += MainActivity.teamNumber + "," + MainActivity.matchNumber + ","
-                        /* Auto */   + MainActivity.leave + "," + MainActivity.AutoUpperCone + "," + MainActivity.AutoMiddleCone + "," + MainActivity.AutoUpperCube + ","
-                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ MainActivity.TeleopUpperCone + "," + MainActivity.TeleopMiddleCone + "," + MainActivity.TeleopUpperCube + "," + MainActivity.TeleopMiddleCube + ","
-                        /* Endgame */    + MainActivity.TeleopEngaged + "," + MainActivity.TeleopDocked +","+ MainActivity.Parking + ","
+                        /* Auto */   + MainActivity.leave + "," + MainActivity.AutoAMP + "," + MainActivity.AutoNote + "," + MainActivity.AutoSpeaker + ","
+                        /* TeleOp */ + MainActivity.playedDefense + "," + MainActivity.defendedOn + ","+ MainActivity.TeleopAmpScored + "," + MainActivity.TeleopSpeakerScored + "," + MainActivity.TeleopAmpMissed + "," + MainActivity.TeleopSpeakerMissed + ","
+                        /* Endgame */    + MainActivity.TeleopEngaged + "," + MainActivity.Climb +","+ MainActivity.Parking + ","
                         /* AddInfo*/ + "," + MainActivity.penalty + "," + MainActivity.deadBot + "," + MainActivity.alliance + "," + MainActivity.additionalNotes  + "," + MainActivity.scoutName;
 
 
