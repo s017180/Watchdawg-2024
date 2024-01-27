@@ -29,6 +29,7 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
     private String data = "";
     private Bitmap bitmap;
 
+    //Varibles
     private static EditText TeamNumPit;
     private static EditText Weight;
     private static EditText DriveMotors;
@@ -57,7 +58,7 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
 
         findViewById(R.id.pitScoutingSave).setOnClickListener(this);
         findViewById(R.id.newActivityPitScouting).setOnClickListener(this);
-
+        //initializing text varibles
         TeamNumPit = (EditText) findViewById(R.id.TeamNumPit);
         Weight = (EditText) findViewById(R.id.Weight);
         DriveMotors = (EditText) findViewById(R.id.DriveMotors);
@@ -86,7 +87,7 @@ public class PitScouting extends AppCompatActivity implements View.OnClickListen
         switch(view.getId()){
             case R.id.pitScoutingSave:
 
-
+                //save QR code
                 data = TeamNumPit.getText().toString() + ","+Weight.getText().toString()+","+DriveMotors.getText().toString()+","+numberOfMotors.getText().toString()+","+WheelType.getText().toString()+","+DriveType.getText().toString()+","+robotLength.getText().toString()+","+
                         RobotWidth.getText().toString()+","+ ScoreFromPodium.getText().toString()+","+ notesOnAMPOrSpeaker.getText().toString()+","+ abilityToClimb.getText().toString()+","+ climbingFeatures.getText().toString()+","+
                         intakeMethod.getText().toString()+","+autoRoutine.getText().toString()+","+notesOnRobot.getText().toString()+","+robotName.getText().toString();

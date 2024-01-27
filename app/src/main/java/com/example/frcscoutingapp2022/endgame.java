@@ -22,6 +22,8 @@ public class endgame extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     public static EditText additionalNotesText;
+    public static EditText trapScoredText;
+    public static EditText harmonyText;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -41,6 +43,7 @@ public class endgame extends Fragment {
      */
     // TODO: Rename and change types and number of parameters
     public static endgame newInstance(String param1, String param2) {
+        //IDK
         endgame fragment = new endgame();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
@@ -51,6 +54,7 @@ public class endgame extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        //IDK
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
@@ -64,6 +68,8 @@ public class endgame extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_endgame, container, false);
         additionalNotesText = view.findViewById(R.id.additionalNotes);
+        trapScoredText = view.findViewById(R.id.trapScored);
+        harmonyText = view.findViewById(R.id.harmony);
 
         return view;
 

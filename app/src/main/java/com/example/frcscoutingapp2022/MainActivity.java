@@ -1,3 +1,7 @@
+//2022 Mark and Micheal. Spreadsheet Oliver(The Excel God)
+//2023 Micheal, Andy, and Simon. Spreadsheet Oliver(The Excel God)
+//2024 Simon and Luka.
+
 package com.example.frcscoutingapp2022;
 
 import android.graphics.Bitmap;
@@ -19,44 +23,47 @@ import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static Bitmap bitmap;
+    private static boolean qrReady = false;
 
-    private TabLayout tabLayout;
-    private ViewPager viewPager;
-    private save saveFragment;
-
+    //Set up Varibles
+    public static String teamNumber;
+    public static String matchNumber;
+    public static String scoutName;
+    public static int alliance = 0;
     public static EditText teamNumText;
     public static EditText matchNumText;
     public static EditText scoutNameText;
 
-    public static Bitmap bitmap;
-    private static boolean qrReady = false;
-
-    public static String teamNumber;
-    public static String matchNumber;
-    public static String scoutName;
-    public static String additionalNotes;
+    //Varibles we need but I don't know what they do
     public static int[][] buttonData;
     public static int[] checkBoxData;
-    public static String defendedOnByNumber = "";
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+    private save saveFragment;
 
-
-    public static int leave = 0;
-    public static int alliance = 0;
+    //Defense Varibles
     public static int playedDefense = 0;
     public static int defendedOn = 0;
+    public static String defendedOnByNumber = "";
 
+    //Endgame Varibles
     public static int Parking = 0;
     public static int Climb = 0;
-    public static int TeleopEngaged = 0;
     public static int penalty = 0;
     public static int deadBot = 0;
+    public static String trapScored;
+    public static String harmony;
+    public static String additionalNotes;
 
-    public static HashMap<String, Integer> autoScores = new HashMap<>();
-
+    //Auto Varibles
     public static int AutoAMP = 0;
     public static int AutoSpeaker = 0;
     public static int AutoNote = 0;
+    public static int leave = 0;
 
+
+    //Teleop Varibles
     public static int TeleopAmpScored = 0;
     public static int TeleopAmpMissed = 0;
     public static int TeleopSpeakerScored = 0;
@@ -74,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
         tabLayout.setupWithViewPager(viewPager);
 
+        //Makes Pages work I think though I don't know how
         VPadapter vpAdapter = new VPadapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
 
         vpAdapter.addFragment(new Auto(), "Auto");
@@ -82,30 +90,35 @@ public class MainActivity extends AppCompatActivity {
         vpAdapter.addFragment(new save(), "Save");
         viewPager.setAdapter(vpAdapter);
 
+        //Some Set up things
         teamNumText = (EditText) findViewById(R.id.teamNum);
         matchNumText = (EditText) findViewById(R.id.matchNum);
         scoutNameText = (EditText) findViewById(R.id.name);
 
-        leave = 0;
+        //defense
         playedDefense = 0;
         defendedOn = 0;
 
-
+        //Endgame
         Parking = 0;
         Climb = 0;
-        TeleopEngaged = 0;
         penalty = 0;
         deadBot = 0;
 
-
+        //Auto
+        leave = 0;
         AutoAMP = 0;
         AutoSpeaker = 0;
         AutoNote = 0;
 
+        //Teleop
         TeleopAmpScored = 0;
         TeleopAmpMissed = 0;
         TeleopSpeakerScored = 0;
         TeleopSpeakerMissed = 0;
+
+
+
 
 
     }
@@ -157,6 +170,7 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup EndgameRadioGroup = (RadioGroup)findViewById(R.id.EndgameRadioGroup);
         RadioGroup AutoRadioGroup = (RadioGroup)findViewById(R.id.AutoRadioGroup);
 
+        //run all radio buttons
         switch (view.getId()) {
             case R.id.blue:
                 MainActivity.alliance = 1;
@@ -169,29 +183,14 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
 
-
-            case R.id.TeleopEngaged:
-
-                if(MainActivity.TeleopEngaged==1){
-                    EndgameRadioGroup.clearCheck();
-                    MainActivity.TeleopEngaged=0;
-                }
-                else{MainActivity.TeleopEngaged =1;
-                MainActivity.Climb =0;
-                MainActivity.Parking =0;
-                System.out.println(MainActivity.TeleopEngaged);
-                System.out.println(MainActivity.Climb);
-                System.out.println(MainActivity.Parking);}
-                break;
             case R.id.Climb:
                 if(MainActivity.Climb ==1){
                     EndgameRadioGroup.clearCheck();
                     MainActivity.Climb =0;
                 }
-                else{MainActivity.TeleopEngaged =0;
+                else{
                 MainActivity.Climb =1;
                 MainActivity.Parking =0;
-                System.out.println(MainActivity.TeleopEngaged);
                 System.out.println(MainActivity.Climb);
                 System.out.println(MainActivity.Parking);}
                 break;
@@ -200,10 +199,9 @@ public class MainActivity extends AppCompatActivity {
                     EndgameRadioGroup.clearCheck();
                     MainActivity.Parking=0;
                 }
-                else{MainActivity.TeleopEngaged =0;
+                else{
                 MainActivity.Climb =0;
                 MainActivity.Parking =1;
-                System.out.println(MainActivity.TeleopEngaged);
                 System.out.println(MainActivity.Climb);
                 System.out.println(MainActivity.Parking);}
                 break;

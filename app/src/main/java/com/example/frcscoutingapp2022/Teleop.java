@@ -48,16 +48,16 @@ public class Teleop extends Fragment implements View.OnClickListener{
 
 
 
-        //Upper buttons
+        //Amp buttons Listener
         view.findViewById(R.id.TeleopScoredAMPIncrease).setOnClickListener(this);
         view.findViewById(R.id.TeleopScoredAMPDecrease).setOnClickListener(this);
 
         view.findViewById(R.id.TeleopMissedAMPIncrease).setOnClickListener(this);
         view.findViewById(R.id.TeleopMissedAMPDecrease).setOnClickListener(this);
 
-        //Middle buttons
+        //Speaker buttons Listener
         view.findViewById(R.id.TeleopScoredSpeakerIncrease).setOnClickListener(this);
-        view.findViewById(R.id.TeleopScoredSpeakerIncrease).setOnClickListener(this);
+        view.findViewById(R.id.TeleopScoredSpeakerDecrease).setOnClickListener(this);
 
         view.findViewById(R.id.TeleopMissedSpeakerIncrease).setOnClickListener(this);
         view.findViewById(R.id.TeleopMissedSpeakerDecrease).setOnClickListener(this);
@@ -69,7 +69,7 @@ public class Teleop extends Fragment implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-
+        //runs the buttons
         switch(view.getId()){
             case R.id.TeleopScoredAMPIncrease:
                 System.out.println(MainActivity.checkBoxData);
@@ -141,7 +141,7 @@ public class Teleop extends Fragment implements View.OnClickListener{
 
     public void onResume(){
         super.onResume();
-
+        // IDK
         TeleopScoredAMPText.setText(Integer.toString(TeleopScoredAMPCounter));
         TeleopMissedAMPText.setText(Integer.toString(TeleopMissedAMPCounter));
         TeleopScoredSpeakerText.setText(Integer.toString(TeleopScoredSpeakerCounter));
@@ -149,6 +149,7 @@ public class Teleop extends Fragment implements View.OnClickListener{
     }
 
     public void clear(){
+        //reset
         TeleopScoredAMPText.setText(Integer.toString(0));
         TeleopMissedAMPText.setText(Integer.toString(0));
         TeleopScoredSpeakerText.setText(Integer.toString(0));
