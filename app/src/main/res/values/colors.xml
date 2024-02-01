@@ -9,10 +9,15 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FFFF00</color>
     <color name="purple">#7600bc</color>
+    <color name="darkBlue">#141057</color> // Check Team Sort Blue Button Text Auto UI for Reference - NEW COLOR
+    <color name="lightBlue">#053df4</color> // Check Team Sort Blue Button TEXT Auto UI for Reference - NEW COLOR
     <color name = "maroon1"> #420606</color>
     <color name = "maroon2"> #6D0c0c</color>
     <color name = "maroon3"> #6f1010</color>
     <color name = "maroon4"> #a10c0c</color>
+    <color name = "maroon5"> #670303</color> // Check Button Rectangle 12 Auto UI for Reference - NEW COLOR NOT IN ORG COLOR PALETTE
     <color name = "darkGrey"> #616161</color>
     <color name = "lightGrey"> #8b8b8b</color>
+
+
 </resources>
