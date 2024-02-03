@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onRadioButtonClicked(View view) {
-        RadioGroup EndgameRadioGroup = (RadioGroup)findViewById(R.id.EndgameRadioGroup);
+       RadioGroup EndgameRadioGroup = (RadioGroup)findViewById(R.id.EndgameRadioGroup);
         RadioGroup AutoRadioGroup = (RadioGroup)findViewById(R.id.AutoRadioGroup);
 
         //run all radio buttons
