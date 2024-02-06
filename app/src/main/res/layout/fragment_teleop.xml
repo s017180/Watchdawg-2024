@@ -12,8 +12,8 @@
 
     <CheckBox
         android:id="@+id/playedDefenseCheckBox"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
         android:background="@drawable/round_rectangle"
         android:button="@null"
         android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
@@ -23,18 +23,18 @@
         android:onClick="onCheckBoxClicked"
         android:text="Played Defense"
         android:textColor="@color/maroon1"
-        android:textSize="30dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintHorizontal_bias="0.178"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintVertical_bias="0.162" />
 
     <CheckBox
         android:id="@+id/GotDefendedCheckBox"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
         android:background="@drawable/round_rectangle"
         android:button="@null"
         android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
@@ -42,75 +42,75 @@
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:onClick="onCheckBoxClicked"
-        android:text="Got Defended"
+        android:text="Was Defended"
         android:textColor="@color/maroon1"
-        android:textSize="30dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintHorizontal_bias="0.805"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintVertical_bias="0.161" />
 
     <Button
         android:id="@+id/TeleopMissedAMPDecrease"
-        android:layout_width="158dp"
-        android:layout_height="178dp"
+        android:layout_width="130dp"
+        android:layout_height="138dp"
         android:background="@drawable/invisable_rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+        app:layout_constraintVertical_bias="0.477" />
 
     <Button
         android:id="@+id/TeleopMissedAMPIncrease"
-        android:layout_width="179dp"
-        android:layout_height="180dp"
+        android:layout_width="124dp"
+        android:layout_height="137dp"
         android:background="@drawable/invisable_rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+        app:layout_constraintVertical_bias="0.478" />
 
     <Button
         android:id="@+id/TeleopScoredAMPDecrease"
-        android:layout_width="170dp"
-        android:layout_height="175dp"
+        android:layout_width="130dp"
+        android:layout_height="127dp"
         android:background="@drawable/invisable_rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintVertical_bias="0.278" />
 
     <Button
         android:id="@+id/TeleopScoredAMPIncrease"
-        android:layout_width="173dp"
-        android:layout_height="174dp"
+        android:layout_width="129dp"
+        android:layout_height="131dp"
         android:background="@drawable/invisable_rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintHorizontal_bias="0.855"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.254" />
+        app:layout_constraintVertical_bias="0.274" />
 
     <Button
         android:id="@+id/TeleopMissedSpeakerDecrease"
-        android:layout_width="241dp"
-        android:layout_height="256dp"
+        android:layout_width="132dp"
+        android:layout_height="143dp"
         android:background="@drawable/invisable_rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintHorizontal_bias="0.143"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.893" />
+        app:layout_constraintVertical_bias="0.927" />
 
     <TextView
         android:id="@+id/TeleopScoredSpeakerCounter"
@@ -124,43 +124,43 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.735" />
+        app:layout_constraintVertical_bias="0.767" />
 
     <Button
         android:id="@+id/TeleopMissedSpeakerIncrease"
-        android:layout_width="242dp"
-        android:layout_height="254dp"
+        android:layout_width="129dp"
+        android:layout_height="141dp"
         android:background="@drawable/invisable_rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintHorizontal_bias="0.855"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.897" />
+        app:layout_constraintVertical_bias="0.927" />
 
     <Button
         android:id="@+id/TeleopScoredSpeakerDecrease"
-        android:layout_width="154dp"
-        android:layout_height="174dp"
+        android:layout_width="140dp"
+        android:layout_height="137dp"
         android:background="@drawable/invisable_rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.674" />
+        app:layout_constraintVertical_bias="0.721" />
 
     <Button
         android:id="@+id/TeleopScoredSpeakerIncrease"
-        android:layout_width="153dp"
-        android:layout_height="165dp"
+        android:layout_width="127dp"
+        android:layout_height="132dp"
         android:background="@drawable/invisable_rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683" />
+        app:layout_constraintVertical_bias="0.718" />
 
     <TextView
         android:id="@+id/TeleopMissedSpeakerCounter"
@@ -174,7 +174,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932" />
+        app:layout_constraintVertical_bias="0.971" />
 
     <TextView
         android:id="@+id/TeleopScoredAMPCounter"
@@ -188,7 +188,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303" />
+        app:layout_constraintVertical_bias="0.343" />
 
     <TextView
         android:id="@+id/TeleopMissedAMPCounter"
@@ -202,7 +202,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.504" />
+        app:layout_constraintVertical_bias="0.535" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
