@@ -47,7 +47,7 @@ You should have the required systems (found below, or [here](https://github.com/
 
 1. Download the Microsoft Excel Spreadsheet found in this Github repository. You will need to add the Developer tab to the ribbon if you would like to edit any macros. 
 2. Download the app if you haven't already (again, [here](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=2Z8C9C9DSI7YN&keywords=watchdawg&qid=1676407384&s=mobile-apps&sprefix=watchdawg%2Cmobile-apps%2C167&sr=1-1) for the Amazon Fire Store link, or the Git release)
-3. Download the instruction manual (found [here](https://drive.google.com/file/d/1o54JGi-gihyFXh7UFRre76viZELWCKad/view?usp=sharing))
+3. Download the instruction manual (found [here](file:///Users/s023890/Downloads/2024%20Dawgma%20Scouting%20User%20Manual%20(3).pdf))
 4. Follow the instruction manual, or our tutorial videos, [here (for Pit Scouting)](https://www.youtube.com/watch?v=Qy0VXm0XURE), and [here (for Match Scouting)](https://www.youtube.com/watch?v=ftOPcMmmr5I)!
 <!-- Or if we use the wiki system: We have an in depth wiki for WatchDawg [here](linklinklinkyougetit)-->
 
@@ -67,9 +67,9 @@ You should have the required systems (found below, or [here](https://github.com/
 * The app downloaded either through Android Studio using the github release or the Amazon [Fire Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=2Z8C9C9DSI7YN&keywords=watchdawg&qid=1676407384&s=mobile-apps&sprefix=watchdawg%2Cmobile-apps%2C167&sr=1-1)
 
 # Documentation and Files
-[User manual](https://drive.google.com/file/d/1JhdpzxwV_ZGIRtdu5C_5Z7-LB50arDKs/view?usp=sharing)
+[User manual](file:///Users/s023890/Downloads/2024%20Dawgma%20Scouting%20User%20Manual%20(3).pdf)
 
-[Spreadsheet](./2023Mk2.1.xlsm)
+[Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2024/blob/9124818d31d6dc1573c1a97b4f89110d876311b4/WATCHDAWG_2024_Excel%20_UPDATED_.xlsm)
 
-[Match Strategy Sheet](https://docs.google.com/document/d/1MbJxzmmZyDQBnunGYa1kg83b3NqzOpte/edit?usp=sharing&ouid=113372425683476679602&rtpof=true&sd=true) (Download as Microsoft Word Doc)
+[Match Strategy Sheet](https://github.com/Dawgma-1712/Watchdawg-2024/blob/88b4453196461d5bdc02b2cd50e97671df7a9af7/MatchStrategySheet2024.docx) (Download as Microsoft Word Doc)
 
