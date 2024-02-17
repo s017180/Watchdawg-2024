@@ -6,10 +6,9 @@ It is written in Java using Android Studio, and currently only supports Android.
 * [User Manual](https://drive.google.com/file/d/12SfmIfrE4jO-iXsUcxjxSocopkPntey1/view?usp=sharing)- contains details regarding setup and use of WatchDawg & the Excel
 * [Match Scouting](https://www.youtube.com/watch?v=22WRLwfsiaw) - YouTube video instructions on game scouting
 * [Pit Scouting](https://www.youtube.com/watch?v=MEn6Ywp-T_4) - YouTube video instructions on pit scouting
+* [Microsoft Excel](https://www.youtube.com/watch?v=07z0OlxK7lk) - Youtube video instructions on microsoft excel
 
-Excel Tutorial Coming Soon
-
-* Note: We are not planning on expanding to other platforms thus far, but this may change in the future.
+Note: We are not planning on expanding to other platforms thus far, but this may change in the future.
 
 ## Why WatchDawg, and What is our Features?
 
@@ -51,5 +50,5 @@ Please check if you have the required systems before proceeding:
 
 ## Documentation and Files
 
-// Write Documentation Here
+// WORK IN PROGRESS
 
