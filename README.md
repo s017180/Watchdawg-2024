@@ -3,9 +3,9 @@
 WatchDawg is the scouting system, developed by FRC Team 1712. This android application was designed to work in venues without a cell connection.
 It is written in Java using Android Studio, and currently only supports Android.
 
-*[User Manual](https://drive.google.com/file/d/12SfmIfrE4jO-iXsUcxjxSocopkPntey1/view?usp=sharing)- contains details regarding setup and use of WatchDawg & the Excel
-*[Match Scouting](https://www.youtube.com/watch?v=22WRLwfsiaw) - YouTube video instructions on game scouting
-*[Pit Scouting](https://www.youtube.com/watch?v=MEn6Ywp-T_4) - YouTube video instructions on pit scouting
+* [User Manual](https://drive.google.com/file/d/12SfmIfrE4jO-iXsUcxjxSocopkPntey1/view?usp=sharing)- contains details regarding setup and use of WatchDawg & the Excel
+* [Match Scouting](https://www.youtube.com/watch?v=22WRLwfsiaw) - YouTube video instructions on game scouting
+* [Pit Scouting](https://www.youtube.com/watch?v=MEn6Ywp-T_4) - YouTube video instructions on pit scouting
 
 Excel Tutorial Coming Soon
 
