@@ -21,10 +21,10 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585" />
+        app:layout_constraintVertical_bias="0.584" />
 
     <CheckBox
         android:id="@+id/penalized"
@@ -37,10 +37,10 @@
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.589" />
+        app:layout_constraintVertical_bias="0.587" />
 
     <EditText
         android:id="@+id/trapScored"
@@ -97,20 +97,20 @@
 
     <RadioGroup
         android:id="@+id/EndgameRadioGroup"
-        android:layout_width="400dp"
+        android:layout_width="520dp"
         android:layout_height="150dp"
         android:layout_marginBottom="40dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.73"
+        app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.184">
+        app:layout_constraintVertical_bias="0.179">
 
         <RadioButton
             android:id="@+id/Parking"
-            android:layout_width="260dp"
+            android:layout_width="257dp"
             android:layout_height="100dp"
             android:buttonTint="@color/white"
             android:fontFamily="@font/helvetica"
@@ -124,7 +124,7 @@
 
         <RadioButton
             android:id="@+id/Climb"
-            android:layout_width="170dp"
+            android:layout_width="250dp"
             android:layout_height="100dp"
             android:buttonTint="@color/white"
             android:fontFamily="@font/helvetica"
