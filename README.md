@@ -31,16 +31,16 @@ Easy to use:
 * Android Amazon Fire 7 Tablet(s) 
 * A Computer with Microsoft Excel
 * A QR code scanner
-* The app downloaded either through Android Studio using the Github release or the Amazon [Fire Store](LINK HERE) 
+* The app downloaded either through Android Studio using the Github release or the the Amazon Fire Store (Coming Soon!)
 
 ## Quick Start 
 Please check if you have the required systems before proceeding:
 
 1. Download the Microsoft Excel Spreadsheet found in this Github Repository. You will need to add the Developed tab to the ribbon if you want to edit any macros.
 
-2. Download the app if you haven't already - Again, from the Amazon [Fire Store](LINK HERE) or the Git release
+2. Download the app if you haven't already - Either From the Git release or the Amazon Fire Store (Coming Soon!)
 
-3. Download the instructional manual 
+3. Download the unstructional manual 
 
 4. Follow the instructional manual, or our tutorial videos linked above.
 
@@ -50,5 +50,9 @@ Please check if you have the required systems before proceeding:
 
 ## Documentation and Files
 
-// WORK IN PROGRESS
+[User Manual](https://drive.google.com/file/d/12SfmIfrE4jO-iXsUcxjxSocopkPntey1/view?usp=sharing)
+[Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=1ZP960FP15OLD&dib=eyJ2IjoiMSJ9.FWtmlrZb8Pfb5iJGDl6BCA.bLqnhWX1Y6KV4uc8-tsAE0UCfR4dc8H-o6jIqZMJNhE&dib_tag=se&keywords=WatchDawg&qid=1708460598&s=mobile-apps&sprefix=watchdaw%2Cmobile-apps%2C118&sr=1-1) 
+[Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2024/blob/master/WATCHDAWG_2024_Excel%20_UPDATED_.xlsm)
+[Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2024/blob/master/MatchStrategySheet2024.docx)
 
+* Note: The app on the Amazon store IS NOT UPDATED! Please use the Github for now as we finish updating our Amazon stor. Thank you!
