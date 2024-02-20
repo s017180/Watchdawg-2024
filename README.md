@@ -40,7 +40,7 @@ Please check if you have the required systems before proceeding:
 
 2. Download the app if you haven't already - Either From the Git release or the Amazon Fire Store (Coming Soon!)
 
-3. Download the unstructional manual 
+3. Download the instructional manual 
 
 4. Follow the instructional manual, or our tutorial videos linked above.
 
@@ -55,4 +55,4 @@ Please check if you have the required systems before proceeding:
 [Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2024/blob/master/WATCHDAWG_2024_Excel%20_UPDATED_.xlsm)
 [Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2024/blob/master/MatchStrategySheet2024.docx)
 
-* Note: The app on the Amazon store IS NOT UPDATED! Please use the Github for now as we finish updating our Amazon stor. Thank you!
+* Please Note: Watchdawg has NOT BEEN UPDATED on the Amazon Fire Store as of yet. Please use the Github for now as we update our Amazon Fire Store. Thank you!
