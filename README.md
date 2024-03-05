@@ -50,6 +50,6 @@ Please check if you have the required systems before proceeding:
 ## Documentation and Files
 
 [User Manual](https://drive.google.com/file/d/12SfmIfrE4jO-iXsUcxjxSocopkPntey1/view?usp=sharing)
-[Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2024/blob/master/WATCHDAWG_2024_Excel%20_UPDATED_.xlsm)
+[Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2024/blob/master/WATCHDAWG_2024_Excel%20_UPDATED_%20(1)%20(2).xlsm)
 [Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2024/blob/master/MatchStrategySheet2024.docx)
 [Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=1M5AJ6OLUHUHI&dib=eyJ2IjoiMSJ9.FWtmlrZb8Pfb5iJGDl6BCA.bLqnhWX1Y6KV4uc8-tsAE0UCfR4dc8H-o6jIqZMJNhE&dib_tag=se&keywords=watchdawg&qid=1708785480&s=mobile-apps&sprefix=%2Cmobile-apps%2C292&sr=1-1)
