@@ -76,11 +76,17 @@ public class save extends Fragment implements View.OnClickListener{
                     if (endgame.additionalNotesText.getText().toString() != null){
                         MainActivity.additionalNotes = endgame.additionalNotesText.getText().toString();
                     }
-                    if (endgame.harmonyText.getText().toString() != null){
+                    if (!endgame.harmonyText.getText().toString().isEmpty()){
                         MainActivity.harmony = endgame.harmonyText.getText().toString();
                     }
-                    if (endgame.trapScoredText.getText().toString() != null){
+                    else{
+                        MainActivity.harmony = "0";
+                    }
+                    if (!endgame.trapScoredText.getText().toString().isEmpty()){
                         MainActivity.trapScored = endgame.trapScoredText.getText().toString();
+                    }
+                    else{
+                        MainActivity.trapScored = "0";
                     }
 
 
