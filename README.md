@@ -54,6 +54,6 @@ Please check if you have the required systems before proceeding:
 
 [Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=1ZP960FP15OLD&dib=eyJ2IjoiMSJ9.FWtmlrZb8Pfb5iJGDl6BCA.bLqnhWX1Y6KV4uc8-tsAE0UCfR4dc8H-o6jIqZMJNhE&dib_tag=se&keywords=WatchDawg&qid=1708460598&s=mobile-apps&sprefix=watchdaw%2Cmobile-apps%2C118&sr=1-1) 
 
-[Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2024/blob/master/WATCHDAWG_2024_Excel%20_UPDATED_.xlsm)
+[Spreadsheet](https://github.com/Dawgma-1712/Watchdawg-2024/blob/477a2d4bf7d0b6c7f1a3a8495aff063bbd83ca7f/WATCHDAWG_2024_Excel%20_UPDATED_%20(3).xlsm)
 
-[Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2024/blob/master/MatchStrategySheet2024.docx)
+[Match Strategy Street](https://github.com/Dawgma-1712/Watchdawg-2024/blob/477a2d4bf7d0b6c7f1a3a8495aff063bbd83ca7f/MatchStrategySheet2024.docx)
