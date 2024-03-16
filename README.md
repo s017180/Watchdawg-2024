@@ -32,10 +32,7 @@ Easy to use:
 * A Computer installed with the latest Microsoft Excel
 * A QR code scanner
 * The app downloaded either through Android Studio using the Github release or the the [Amazon Store](https://www.amazon.com/Dawgma-Robotics-WatchDawg/dp/B09VMZZ6FL/ref=sr_1_1?crid=1M5AJ6OLUHUHI&dib=eyJ2IjoiMSJ9.FWtmlrZb8Pfb5iJGDl6BCA.bLqnhWX1Y6KV4uc8-tsAE0UCfR4dc8H-o6jIqZMJNhE&dib_tag=se&keywords=watchdawg&qid=1708785480&s=mobile-apps&sprefix=%2Cmobile-apps%2C292&sr=1-1)
-* 6-7: Android Amazon Fire 7 Tablets (7 tablets are recomended)
-* A Computer with Microsoft Excel
-* A QR code scanner
-* The app downloaded either through Android Studio using the Github release or the the Amazon Fire Store
+
 
 ## Quick Start 
 Please check if you have the required systems before proceeding:
@@ -47,7 +44,6 @@ Please check if you have the required systems before proceeding:
 
 ## Future Goals
 * Port to other android systems - compatible with a larger platform of android devices
-* Port to other android systems, compatible with larger platforms
 
 ## Documentation and Files
 
